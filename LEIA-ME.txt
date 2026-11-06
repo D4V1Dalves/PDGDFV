@@ -1,0 +1,78 @@
+LIZ — EDITOR DE CONTEÚDO
+
+Abra index.html no navegador.
+
+1. Pressione Shift + Control + P para abrir o painel oculto. O atalho também fecha o painel; Esc fecha.
+2. Clique no texto, desenho ou mídia que deseja substituir.
+3. Escolha Texto, Imagem / desenho, Vídeo ou Áudio. Escreva o conteúdo ou escolha um arquivo e clique em Aplicar.
+4. Para desfazer a substituição de um elemento, use Restaurar original.
+5. Clique em Fechar painel (Esc) para navegar normalmente.
+
+COR E POSIÇÃO
+Selecione um elemento e use Cor e posição. Escolha a cor do texto/desenho e a cor de fundo. Ajuste X para esquerda/direita e Y para cima/baixo, em pixels, e clique em Aplicar conteúdo, cor e posição. “Manter conteúdo original” permite mover ou colorir sem substituir o elemento. Restaure as cores e a posição separadamente, ou use Restaurar original para remover todas as alterações do elemento. Imagens mantêm suas próprias cores; a cor do desenho afeta os SVGs originais que usam currentColor. O deslocamento mantém o espaço original no layout e vale também no celular; confira os dois tamanhos ao escolher posições.
+
+A carta e a surpresa precisam estar abertas para selecionar seus elementos. Feche o painel, abra a carta ou surpresa e abra o painel novamente.
+O contador continua calculando automaticamente o tempo; seus números são dinâmicos.
+
+MÚSICAS E MÍDIAS
+Abra o painel oculto com Shift + Control + P e clique em Músicas, galeria, carta e exportação. Nesse painel você pode substituir a música de fundo, cada faixa e a gravação de voz, editar a carta e gerenciar a galeria. Esc fecha esse painel.
+
+SALVAR E PUBLICAR
+As alterações ficam neste navegador. No painel Músicas, galeria, carta e exportação, use EXPORTAR INDEX.HTML para gerar a página com textos e arquivos incorporados. Substitua o index.html da sua hospedagem pelo arquivo exportado. O BACKUP inclui também as substituições do editor completo e pode ser importado em outro navegador. Guarde uma cópia.
+
+O login controla a abertura dos painéis nesta cópia local. Para alterar o site hospedado, exporte e atualize o HTML. Arquivos grandes aumentam o HTML e podem exceder o armazenamento local. Caso o salvamento falhe, exporte antes de fechar.
+
+O navegador pode exigir um clique para tocar a música. MP3, MP4/H.264 e WebM têm ampla compatibilidade; outros formatos dependem do navegador. Os desenhos SVG originais podem ser substituídos por arquivos ou texto; o editor não redesenha os caminhos internos do SVG.
+
+A página utiliza fontes e bibliotecas externas por CDN e precisa de conexão para carregá-las. Licenças dos componentes incluídas na pasta components e no arquivo ReactBits-LICENSE.md.
+
+PARALLAX, CAMADAS E PALETA
+Abra o editor com Ctrl + Shift + P. A rolagem animada pausa durante a seleção.
+Use “Cenas e camadas” para selecionar a abertura, o devocional ou um plano de
+fundo. Selecione textos, fotos e botões na página para ajustar seus efeitos.
+Em “Parallax e animação”, controle o efeito, deslocamento, escala, giro,
+opacidade, máscara, início e fim, suavização e duração, conforme o tipo de
+efeito. A fixação de uma cena é medida em porcentagem da altura da tela.
+Dentro de uma cena fixada, início e fim são porcentagens do percurso da cena.
+Use “Prévia do movimento” e role a página para ver os ajustes.
+Em “Paleta e movimento do site”, edite as seis cores ou restaure a paleta.
+As animações respeitam a preferência de movimento reduzido do sistema.
+Os ajustes seguem com o backup JSON e com os arquivos HTML e ZIP exportados.
+
+RÉGUA CENTRAL, TAMANHO E ROTAÇÃO
+A linha vertical pontilhada marca o centro da área visível. Ao selecionar
+um elemento, arraste a bolinha amarela no canto para mudar o tamanho
+proporcionalmente. Arraste a bolinha verde no meio da borda superior para girar.
+Também é possível digitar os valores em “Tamanho e rotação” ou usar as setas
+do teclado com foco na alça. O redimensionamento preserva o espaço de layout
+original. As transformações são salvas e incluídas nas exportações e backups.
+
+ENCAIXE E LOGIN
+Ao mover, a seleção encaixa em bordas, centros próximos e no centro da tela.
+Ao girar, os ângulos encaixam em múltiplos de 15°. As guias rosas mostram
+o encaixe. Segure Alt (Option) durante o gesto para ajustar livremente.
+
+Abra o editor com Ctrl + Shift + P e entre com o usuário David e a senha
+combinada. O atalho do painel de mídias também pede login. Use “Sair do
+editor” para encerrar o acesso. Recarregar a página também encerra a sessão.
+O login é local, no navegador. A página estática e seus dados continuam
+acessíveis a quem recebe o HTML. A autenticação no servidor é necessária
+para restringir acesso em uma hospedagem.
+
+DESKTOP E MOBILE
+Use Ctrl + Shift + P e entre no editor. No topo de ambos os painéis, selecione
+Desktop ou Mobile. Cada modo guarda suas próprias transformações, textos,
+mídias, paleta e animações. Para Mobile, abra o Inspecionar, ligue o modo
+responsivo e use uma largura de até 700 px. Para Desktop, use acima de 700 px.
+Os controles só ficam ativos quando a largura corresponde ao modo escolhido.
+O visitante recebe o perfil correspondente à largura da janela. Edições de
+versões anteriores são usadas como ponto de partida dos dois modos. O HTML,
+o ZIP e o novo backup JSON incluem os dois perfis. Se importar um backup
+antigo de um único perfil, ele será aplicado somente ao modo em edição.
+
+BLOQUEIO DO EDITOR
+A quinta tentativa incorreta bloqueia o login local da instalação, inclusive
+depois de recarregar. Um acesso correto antes da quinta tentativa zera o
+contador. Para recuperar, extraia uma nova cópia em outra pasta. A página e as
+edições continuam disponíveis. A proteção é local no navegador; autenticação
+e bloqueio de hospedagem precisam ser implementados no servidor.

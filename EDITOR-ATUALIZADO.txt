@@ -1,0 +1,23 @@
+EDITOR VISUAL ATUALIZADO
+
+Abra index.html e use Ctrl + Shift + P para abrir o painel.
+Escolha Elementos ou Blocos e seções, clique e arraste para mover.
+Use Selecionar bloco acima para alcançar o contêiner de um elemento.
+Texto, arquivos e cores são aplicados em tempo real.
+As alterações são salvas no navegador. Use a exportação do painel para guardar uma cópia transportável.
+Esc fecha o editor e permite navegar normalmente no site.
+
+O seletor Cenas e camadas dá acesso aos planos da abertura e do devocional.
+Abra Parallax e animação para editar o movimento de cada seleção. Use Prévia
+do movimento para testar a rolagem e Paleta e movimento do site para editar
+as cores globais. Consulte LEIA-ME.txt para detalhes.
+
+No modo editor, a régua pontilhada indica o centro da tela. Selecione um
+elemento e arraste a bolinha amarela para redimensionar ou a verde para girar.
+
+O editor pede login. Durante o arraste, a seleção encaixa em bordas e centros
+próximos. Durante o giro, encaixa de 15° em 15°. Alt (Option) libera o gesto.
+
+Escolha Desktop ou Mobile no topo dos painéis. Para editar Mobile, use o
+Inspecionar no modo responsivo com até 700 px. Cada perfil guarda suas edições.
+A quinta tentativa de login incorreta bloqueia o editor nesta instalação.

@@ -1,0 +1,8 @@
+PACOTE PREPARADO PARA GITHUB
+
+1. Envie o conteúdo desta pasta para a raiz do repositório (não envie o ZIP como site).
+2. O arquivo principal é index.html.
+3. Os arquivos de mídia usados pelo HTML foram separados em /assets para reduzir o tamanho do HTML.
+4. alteracoes.json foi deixado de fora porque é um backup/exportação do editor e não é necessário para publicar o site estático.
+   Guarde o ZIP original como backup se precisar reimportar o projeto no editor.
+5. Para publicar com GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root) > Save.
